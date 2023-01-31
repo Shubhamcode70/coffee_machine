@@ -1,3 +1,4 @@
+from coffeeart import logo
 MENU = {
     "espresso": {
         "ingredients": {
@@ -31,7 +32,7 @@ resources = {
 }
 
 money = 0
-
+print(logo)
 
 def resource_check(coffee_require):
     for item in coffee_require:
